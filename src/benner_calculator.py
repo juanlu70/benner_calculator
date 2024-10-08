@@ -12,20 +12,24 @@ class BennerCalculator:
             'initial_year': self.initial_year + 3,
             'years_distance': [18, 20, 16],
             'years': [self.initial_year + 3],
-            'explanation': "\"A\" Years which panics have ocurred and it will occur again."
+            'explanation': "\"A\" Years which panics have ocurred and it "
+                           "will occur again."
         }
         self.cycle_b = {
             'initial_year': self.initial_year + 2,
             'years_distance': [9, 10, 8],
             'years': [self.initial_year + 2],
-            'explanation': "\"B\" Years of good times, high prices and the time to sell stocks and values of all kinds"
+            'explanation': "\"B\" Years of good times, high prices and the "
+                           "time to sell stocks and values of all kinds"
         }
         self.cycle_c = {
             'initial_year': self.initial_year,
             'years_distance': [7, 11, 9],
             'years': [self.initial_year],
-            'explanation': "\"C\" years of hard times, low prices and good time to buy stocks, goods and hold it "
-                           + "till the \"Boom\" reaches the years of good times; then unload"
+            'explanation': "\"C\" years of hard times, low prices and good "
+                           "time to buy stocks, goods and hold it till the "
+                           "\"Boom\" reaches the years of good times; "
+                           "then unload"
         }
 
     def make_long_term_cycles(self) -> None:
